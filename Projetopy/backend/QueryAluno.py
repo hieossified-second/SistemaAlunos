@@ -7,7 +7,7 @@ class QA:
 
     def procurarAluno(self):
    
-        connect = conectarA
+        connect = conectarA()
 
         cursor = connect.cursor()
 

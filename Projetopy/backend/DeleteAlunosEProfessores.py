@@ -7,7 +7,7 @@ class DeleteProfessor:
         self.id = id
 
     def DeletarUser(self):
-        conexao = conectarP
+        conexao = conectarP()
 
         cursor = conexao.cursor()
 

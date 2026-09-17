@@ -18,7 +18,7 @@ class Aluno:
 
     def salvar_no_banco(self):
 
-        conexao = conectarA
+        conexao = conectarA()
 
         cursor = conexao.cursor()
 

@@ -13,7 +13,7 @@ class Professor:
 
     def salvar_no_banco(self):
 
-        connect = conectarP
+        connect = conectarP()
 
         cursor = connect.cursor()
 

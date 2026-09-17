@@ -7,7 +7,7 @@ class QP:
 
     def procurarProfessor(self):
    
-        connect = conectarP
+        connect = conectarP()
 
         cursor = connect.cursor()
 
