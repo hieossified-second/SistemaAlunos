@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Deletar Professor</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div>
+        <h1 class="caixaMenor">Deletar Professor</h1>
+        
+        <div class="caixa">
+            <form action="/DeleteP" method="POST">
+
+                <label>ID do aluno:</label>
+
+                <br>
+
+                <input type="number" name="id" required>
+
+                <br><br>
+
+                <button type="submit">
+                    Deletar Professor
+                </button>
+        </div>
+        </form>
+
+        
+        {% if resultado %}
+        <div class="caixa">
+            <p>{{resultado}}</p>
+        </div>
+        {% endif %}
+
+        <br>
+
+        <a href="/">
+            <button>Voltar</button>
+        </a>
+    </div>
+</body>
+
+</html>

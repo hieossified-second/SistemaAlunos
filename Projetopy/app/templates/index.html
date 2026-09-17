@@ -1,0 +1,43 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Escolar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1 class="caixa">Bem-Vindo ao sistema da E.E Solo Desenvolvimento Epsilon</h1>
+    <p>O que deseja para hoje ?</p>
+
+    <hr>
+
+    <div class="caixa">
+        <h2 class="CorPreta">Area de Cadastro</h2>
+        <hr>
+        <div class="caixaMenor">
+        <button><a href="/cadastro">Cadastrar Aluno</a></button>
+        <button><a href="/cadastroP">Cadastrar Professor</a></button>
+        </div>
+    </div>
+
+    <div class="caixa">
+        <h2 class="CorPreta">Area de Consulta</h2>
+        <hr>
+        <div class="caixaMenor">
+        <button><a href="/consultaA">Consultar Aluno</a></button>
+        <button><a href="/consultaP">Consultar Professor</a></button>
+        </div>
+    </div>
+
+    <div class="caixa">
+        <h2 class="CorPreta">Area de Delete</h2>
+        <hr>
+        <div class="caixaMenor">
+            <button><a href="/ExcluirA"> Deletar Registro de um Aluno </a></button>
+            <button><a href="/DeleteP"> Deletar Registro de um Professor </a></button>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Consultar Aluno</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div>
+        <h1 class="caixaMenor">Consultar Aluno</h1>
+        
+        <div class="caixa">
+            <form action="/consultaA" method="POST">
+
+                <label>ID do aluno:</label>
+
+                <br>
+
+                <input type="number" name="id" required>
+
+                <br><br>
+
+                <button type="submit">
+                    Consultar
+                </button>
+        </div>
+        </form>
+
+        
+        {% if resultado %}
+        <div class="caixa">
+            <h2>Resultado:</h2>
+            <h2>ID, Nome, Idade, Media</h2>
+            <p>{{resultado}}</p>
+            
+
+            
+        </div>
+        {% endif %}
+
+        <br>
+
+        <a href="/">
+            <button>Voltar</button>
+        </a>
+    </div>
+</body>
+
+</html>

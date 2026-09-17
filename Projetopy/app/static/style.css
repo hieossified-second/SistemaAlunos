@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(19, 19, 19);
+}
+
+p{
+    color: #ffffff;;
+    text-align: center;
+    font-size: x-large;
+}
+
+.corPreta {
+    color: black;
+}
+
+h1{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.caixa {
+    width: 500px;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: darkgray;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+a {
+    color: rgb(8, 8, 8);
+}
+
+.caixaMenor {
+    width: 400px;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: darkgray;
+    border: 2px solid;
+    border-radius: 20px;
+}
